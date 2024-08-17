@@ -1,0 +1,83 @@
+body{
+
+    background-color: rgb(216, 145, 87);
+}
+    @media only screen and (min-width:650px) {
+        body{
+            background-color: hwb(159 11% 70%);
+            color: #fff;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+    }
+            
+.container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.row {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #FFD700; 
+  text-shadow: 2px 2px #000; 
+  font-family: "Comic Sans MS", "Comic Sans", cursive; 
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+  text-align: center;
+}
+.myButton{
+  background-color: aqua;
+}
+
+.box1{
+  color: white;
+  min-height: 100px;
+  text-align: left;
+  border: 5px solid black
+}
+.box2{
+  color: white;
+  min-height: 100px;
+  text-align: left;
+  border: 5px solid black;
+  box-shadow: 0ch;
+}
+.box3{
+  color: white;
+  min-height: 100px;
+  text-align: left;
+  border: 5px solid black; 
+  box-shadow: aqua;
+}
+
+.error-notification {
+  color: red;
+  background-color: #ffe5e5;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+  
+  
